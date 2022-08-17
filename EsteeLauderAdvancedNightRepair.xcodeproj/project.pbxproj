@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5034F2C428AB6BE700671CF0 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5034F2C328AB6BE700671CF0 /* Scroll.swift */; };
 		50827DBA28AA01C40061D172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50827DB928AA01C40061D172 /* AppDelegate.swift */; };
 		50827DBC28AA01C40061D172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50827DBB28AA01C40061D172 /* SceneDelegate.swift */; };
 		50827DBE28AA01C40061D172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50827DBD28AA01C40061D172 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5034F2C328AB6BE700671CF0 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		50827DB628AA01C40061D172 /* EsteeLauderAdvancedNightRepair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauderAdvancedNightRepair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50827DB928AA01C40061D172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50827DBB28AA01C40061D172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				50827DC228AA01C70061D172 /* Assets.xcassets */,
 				50827DC428AA01C70061D172 /* LaunchScreen.storyboard */,
 				50827DC728AA01C70061D172 /* Info.plist */,
+				5034F2C328AB6BE700671CF0 /* Scroll.swift */,
 			);
 			path = EsteeLauderAdvancedNightRepair;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				50827DBE28AA01C40061D172 /* ViewController.swift in Sources */,
 				50827DBA28AA01C40061D172 /* AppDelegate.swift in Sources */,
+				5034F2C428AB6BE700671CF0 /* Scroll.swift in Sources */,
 				50827DBC28AA01C40061D172 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
