@@ -17,19 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advanced-night-repair-bottles" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-ez-KOT">
-                                <rect key="frame" x="-890" y="-207" width="1462" height="1319"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-ez-KOT">
+                                <rect key="frame" x="-239" y="-136" width="917" height="1171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfR-cU-BP4">
-                                <rect key="frame" x="199" y="707" width="195" height="49"/>
+                                <rect key="frame" x="182" y="761" width="212" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Estée Lauder For U">
+                                <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Estée Lauder For U">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Futura-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="CYh-TM-nEi" kind="show" id="64i-5t-Jgd"/>
@@ -53,12 +60,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DisplayPic" translatesAutoresizingMaskIntoConstraints="NO" id="ltP-Yy-ZQT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="ltP-Yy-ZQT">
                                 <rect key="frame" x="-85" y="-156" width="585" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntL-Rl-9D4">
-                                <rect key="frame" x="107" y="183" width="50" height="50"/>
+                                <rect key="frame" x="111" y="183" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
@@ -85,22 +92,8 @@
                                     <segue destination="g7i-P6-kt0" kind="show" id="Fm0-L2-S5h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwo-b1-7vf">
-                                <rect key="frame" x="193" y="408" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <backgroundConfiguration key="background" image="icons8-plus-512">
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <attributedString key="attributedTitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="u0j-ce-dEt" kind="show" id="bfj-v1-49w"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWz-V2-9Vh">
-                                <rect key="frame" x="219" y="87" width="50" height="50"/>
+                                <rect key="frame" x="259" y="105" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
@@ -264,6 +257,20 @@ Synchronized Multi-Recovery Complex</string>
                                     <backgroundConfiguration key="background" image="icons8-shopping-basket-star-96"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwo-b1-7vf">
+                                <rect key="frame" x="203" y="434" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="icons8-plus-512">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="u0j-ce-dEt" kind="show" id="bfj-v1-49w"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xXI-nN-0lZ"/>
@@ -1310,8 +1317,8 @@ Synchronized Multi-Recovery Complex</string>
                                 <rect key="frame" x="70" y="60" width="282" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Advanced-Night-Repair-Square" translatesAutoresizingMaskIntoConstraints="NO" id="iOl-aI-CoR">
-                                        <rect key="frame" x="21" y="160" width="254" height="283"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="iOl-aI-CoR">
+                                        <rect key="frame" x="41" y="215" width="234" height="221"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CMu-sl-LXo">
@@ -1536,11 +1543,33 @@ Synchronized Multi-Recovery Complex</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KsJ-AK-QAl">
-                                <rect key="frame" x="82" y="80" width="250" height="394"/>
+                                <rect key="frame" x="41" y="80" width="338" height="394"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvA-Zm-Pkf">
+                                        <rect key="frame" x="8" y="72" width="322" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Tripeptide-32: Our exclusive peptide that supports skin's natural day/night rhythm of protection by day and renewal at night.
+Sodium Hyaluronate: AKA Hyaluronic Acid, a ferment that is a powerful moisture magnet.
+Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, helping to defend against free-radical damage.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEATURED INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJP-B5-iYC">
+                                        <rect key="frame" x="8" y="43" width="213" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="gCt-0I-sN1">
+                                        <rect key="frame" x="76" y="228" width="254" height="158"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PH6-zs-jeJ">
-                                        <rect key="frame" x="213" y="0.0" width="37" height="35"/>
+                                        <rect key="frame" x="293" y="0.0" width="37" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
@@ -1561,24 +1590,6 @@ Synchronized Multi-Recovery Complex</string>
                                             <segue destination="9ky-3B-87e" kind="show" id="OKX-fz-qvx"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvA-Zm-Pkf">
-                                        <rect key="frame" x="8" y="100" width="234" height="198"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <string key="text">Tripeptide-32: Our exclusive peptide that supports skin's natural day/night rhythm of protection by day and renewal at night.
-Sodium Hyaluronate: AKA Hyaluronic Acid, a ferment that is a powerful moisture magnet.
-Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, helping to defend against free-radical damage.</string>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEATURED INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJP-B5-iYC">
-                                        <rect key="frame" x="8" y="71" width="213" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
@@ -1600,16 +1611,18 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Sad-T6-JgU"/>
-        <segue reference="VVw-wf-pwc"/>
+        <segue reference="64i-5t-Jgd"/>
         <segue reference="b0U-2N-AQ6"/>
-        <segue reference="6L1-pY-1Ua"/>
+        <segue reference="OKX-fz-qvx"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1" width="4500" height="4500"/>
+        <image name="3" width="4500" height="4500"/>
         <image name="4" width="4500" height="4500"/>
         <image name="5" width="4500" height="4500"/>
+        <image name="6" width="4500" height="4500"/>
         <image name="8" width="4500" height="4500"/>
-        <image name="Advanced-Night-Repair-Square" width="1600" height="1600"/>
-        <image name="DisplayPic" width="1734" height="1732"/>
+        <image name="9" width="4500" height="4500"/>
         <image name="Estée_Lauder_Companies_Logo.svg" width="1200" height="719"/>
         <image name="Screen Shot 2022-08-16 at 10.43.17 PM" width="618" height="1232"/>
         <image name="Screen Shot 2022-08-16 at 10.46.13 PM" width="616" height="1224"/>
@@ -1625,7 +1638,6 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         <image name="Screen Shot 2022-08-17 at 2.24.57 AM" width="558" height="872"/>
         <image name="Screen Shot 2022-08-17 at 2.33.34 AM" width="916" height="200"/>
         <image name="Screen Shot 2022-08-17 at 2.46.36 AM" width="1118" height="370"/>
-        <image name="advanced-night-repair-bottles" width="1960" height="1226"/>
         <image name="icons8-love-100" width="100" height="100"/>
         <image name="icons8-plus-480 (1)" width="480" height="480"/>
         <image name="icons8-plus-512" width="512" height="512"/>
@@ -1653,6 +1665,9 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
