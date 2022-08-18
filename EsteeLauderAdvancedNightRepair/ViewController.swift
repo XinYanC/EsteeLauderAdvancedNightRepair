@@ -35,6 +35,9 @@ class ViewController: UIViewController {
     @IBAction func esteelauder(_ sender: UIButton) {
         UIApplication.shared.open(URL(string: "https://www.esteelauder.com/")! as URL, options: [:], completionHandler: nil)
     }
+    @IBAction func xinYan(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.linkedin.com/in/xinyanc/")! as URL, options: [:], completionHandler: nil)
+    }
     
     
 }
