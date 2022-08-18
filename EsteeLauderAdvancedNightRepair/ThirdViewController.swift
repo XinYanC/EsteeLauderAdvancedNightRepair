@@ -358,7 +358,7 @@ class ThirdViewController: UIViewController {
     }
     
     func findRecom() -> String {
-        var rec = "Advance Night Repair is: \n"
+        var rec = "Why is the Advance Night Repair for YOU: \n"
         if sensitive >= 2 {
             rec = rec + "\n- Free of synthetic fragrance\n- Free of parabens, phthalates, sulfites, sulfates and mineral oil"
         }

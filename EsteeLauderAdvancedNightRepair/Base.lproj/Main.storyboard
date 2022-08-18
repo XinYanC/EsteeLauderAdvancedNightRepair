@@ -149,7 +149,7 @@
                                             <segue destination="47P-Z4-kQr" kind="show" id="Jjm-0k-a74"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VyB-s9-ZgC">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyB-s9-ZgC">
                                         <rect key="frame" x="8" y="26" width="398" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -391,7 +391,7 @@ Synchronized Multi-Recovery Complex</string>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why is the Advance Night Repair for Yo   ?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vf7-tB-j1y">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Why is the Advance Night Repair for Yo   ?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vf7-tB-j1y">
                                 <rect key="frame" x="20" y="67" width="374" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1021,15 +1021,15 @@ Synchronized Multi-Recovery Complex</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I2R-0N-17f">
-                                                <rect key="frame" x="8" y="1391" width="398" height="233"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I2R-0N-17f">
+                                                <rect key="frame" x="8" y="1381" width="398" height="248"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="textColor" systemColor="labelColor"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wqv-4D-uzu">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wqv-4D-uzu">
                                                 <rect key="frame" x="8" y="1220" width="398" height="163"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1128,7 +1128,7 @@ Advanced Night Repair harnesses the restorative power of night to deliver visibl
                                 <rect key="frame" x="-14" y="178" width="443" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Find out why Advance Night Repair is for" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Esh-xp-SUF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Find out why Advance Night Repair is for" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Esh-xp-SUF">
                                 <rect key="frame" x="54" y="569" width="307" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1947,7 +1947,7 @@ Synchronized Multi-Recovery Complex</string>
                                         <rect key="frame" x="41" y="215" width="234" height="221"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CMu-sl-LXo">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CMu-sl-LXo">
                                         <rect key="frame" x="21" y="43" width="238" height="164"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2172,7 +2172,7 @@ Synchronized Multi-Recovery Complex</string>
                                 <rect key="frame" x="41" y="80" width="338" height="394"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvA-Zm-Pkf">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvA-Zm-Pkf">
                                         <rect key="frame" x="8" y="72" width="322" height="148"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2239,7 +2239,7 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         <segue reference="rcq-dP-3hN"/>
         <segue reference="VVw-wf-pwc"/>
         <segue reference="PFR-7g-wCx"/>
-        <segue reference="5qY-TK-iSk"/>
+        <segue reference="0zh-gF-9yY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="4500" height="4500"/>
