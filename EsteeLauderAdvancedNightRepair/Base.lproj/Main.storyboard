@@ -278,7 +278,7 @@ Synchronized Multi-Recovery Complex</string>
         <!--View Controller-->
         <scene sceneID="KTT-S3-qeh">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ecg-w3-1yc" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Ecg-w3-1yc" customClass="ViewController" customModule="EsteeLauderAdvancedNightRepair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qup-5b-22b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -308,6 +308,9 @@ Synchronized Multi-Recovery Complex</string>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="esteelauder:" destination="Ecg-w3-1yc" eventType="touchUpInside" id="KyG-V7-fz7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5e-qO-sOK">
                                         <rect key="frame" x="20" y="131" width="199" height="49"/>
@@ -432,11 +435,11 @@ Synchronized Multi-Recovery Complex</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why is the Advance Night Repair for yoU?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-GQ-K8q">
-                                <rect key="frame" x="20" y="126" width="374" height="103"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why is the Advance Night Repair for Yo   ?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-GQ-K8q">
+                                <rect key="frame" x="20" y="126" width="374" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -444,6 +447,13 @@ Synchronized Multi-Recovery Complex</string>
                                 <rect key="frame" x="53" y="237" width="308" height="9"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAk-g6-jLu">
+                                <rect key="frame" x="294" y="180" width="22" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WUj-NN-Zug"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -688,13 +698,6 @@ Synchronized Multi-Recovery Complex</string>
                                                 <viewLayoutGuide key="contentLayoutGuide" id="Qv0-by-K05"/>
                                                 <viewLayoutGuide key="frameLayoutGuide" id="hfF-On-AOP"/>
                                             </scrollView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shop Other Suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDb-bQ-JjZ">
-                                                <rect key="frame" x="18" y="1171" width="230" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="fW0-iI-Sig">
                                                 <rect key="frame" x="-1" y="308" width="268" height="270"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -767,6 +770,13 @@ Synchronized Multi-Recovery Complex</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FORMULA FACTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmQ-bi-wMI">
+                                                <rect key="frame" x="-45" y="834" width="205" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PJr-YX-Zjj">
                                                 <rect key="frame" x="8" y="586" width="362" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -775,6 +785,91 @@ Synchronized Multi-Recovery Complex</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="oqg-W6-DKP">
+                                                <rect key="frame" x="118" y="700" width="299" height="299"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iy-l9-0Mc">
+                                                <rect key="frame" x="167" y="739" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="icons8-plus-480 (1)">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="wtu-Zv-UDM"/>
+                                                    <action selector="prod1:" destination="47P-Z4-kQr" eventType="touchUpInside" id="7WU-mT-h6t"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwk-nc-kK1">
+                                                <rect key="frame" x="309" y="762" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="icons8-plus-480 (1)">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="fqs-9W-8nr"/>
+                                                    <action selector="prod2:" destination="47P-Z4-kQr" eventType="touchUpInside" id="gAS-fT-ppZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDp-9g-jx9">
+                                                <rect key="frame" x="177" y="873" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="icons8-plus-480 (1)">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="bfs-0j-DfE"/>
+                                                    <action selector="prod3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="mGa-9H-RFx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npE-7E-aBp">
+                                                <rect key="frame" x="275" y="920" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="icons8-plus-480 (1)">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="YxJ-ne-zZi"/>
+                                                    <action selector="prod4:" destination="47P-Z4-kQr" eventType="touchUpInside" id="Yyz-1D-us0"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wpS-xq-ZwS">
+                                                <rect key="frame" x="8" y="1007" width="362" height="108"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="npn-6J-bo1">
+                                                <rect key="frame" x="87" y="1134" width="240" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shop Other Suggestions of Your Skin Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDb-bQ-JjZ">
+                                                <rect key="frame" x="18" y="1171" width="342" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -825,16 +920,18 @@ Synchronized Multi-Recovery Complex</string>
                     <connections>
                         <outlet property="ideal" destination="PJr-YX-Zjj" id="6u6-3T-dKw"/>
                         <outlet property="label1" destination="OUv-BG-PAR" id="LdC-En-gn5"/>
+                        <outlet property="label2" destination="dmQ-bi-wMI" id="s5a-5W-Fpb"/>
+                        <outlet property="prodInfo" destination="wpS-xq-ZwS" id="aBM-sx-kab"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zZq-Mw-8Ze" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="692.75362318840587" y="742.63392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Rating View Controller-->
         <scene sceneID="JGo-hE-48K">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="rz6-pf-Y0N" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="rz6-pf-Y0N" customClass="RatingViewController" customModule="EsteeLauderAdvancedNightRepair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="a3i-m3-7Yf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -936,6 +1033,9 @@ Synchronized Multi-Recovery Complex</string>
                                                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="choosePhoto:" destination="rz6-pf-Y0N" eventType="touchUpInside" id="eba-JC-G3r"/>
+                                                </connections>
                                             </button>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8GB-b6-TMC">
                                                 <rect key="frame" x="0.0" y="1180" width="414" height="239"/>
@@ -950,7 +1050,7 @@ Synchronized Multi-Recovery Complex</string>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upload your photos!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOp-PZ-Kei">
                                                                 <rect key="frame" x="15" y="8" width="199" height="223"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1029,6 +1129,9 @@ Synchronized Multi-Recovery Complex</string>
                     </view>
                     <navigationItem key="navigationItem" id="5Gl-mi-ykw"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="displayImage" destination="vny-gT-Ht3" id="Puu-ec-82w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1Z-CX-z7c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1497,13 +1600,14 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Sad-T6-JgU"/>
-        <segue reference="64i-5t-Jgd"/>
-        <segue reference="E6F-Hn-0XP"/>
-        <segue reference="fyo-mt-mXC"/>
+        <segue reference="VVw-wf-pwc"/>
+        <segue reference="b0U-2N-AQ6"/>
+        <segue reference="6L1-pY-1Ua"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="4" width="4500" height="4500"/>
         <image name="5" width="4500" height="4500"/>
+        <image name="8" width="4500" height="4500"/>
         <image name="Advanced-Night-Repair-Square" width="1600" height="1600"/>
         <image name="DisplayPic" width="1734" height="1732"/>
         <image name="Estée_Lauder_Companies_Logo.svg" width="1200" height="719"/>
@@ -1523,6 +1627,7 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         <image name="Screen Shot 2022-08-17 at 2.46.36 AM" width="1118" height="370"/>
         <image name="advanced-night-repair-bottles" width="1960" height="1226"/>
         <image name="icons8-love-100" width="100" height="100"/>
+        <image name="icons8-plus-480 (1)" width="480" height="480"/>
         <image name="icons8-plus-512" width="512" height="512"/>
         <image name="icons8-shopping-basket-star-96" width="96" height="96"/>
         <image name="nav bar" width="560" height="560"/>
