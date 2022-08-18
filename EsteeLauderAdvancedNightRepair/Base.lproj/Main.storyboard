@@ -450,9 +450,15 @@ Synchronized Multi-Recovery Complex</string>
                                 <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dw0-VA-ACx">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dw0-VA-ACx">
                                 <rect key="frame" x="53" y="237" width="308" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAk-g6-jLu">
                                 <rect key="frame" x="294" y="180" width="22" height="45"/>
@@ -464,10 +470,6 @@ Synchronized Multi-Recovery Complex</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WUj-NN-Zug"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="WUj-NN-Zug" firstAttribute="trailing" secondItem="Dw0-VA-ACx" secondAttribute="trailing" constant="53" id="07K-t5-hDJ"/>
-                            <constraint firstItem="Dw0-VA-ACx" firstAttribute="leading" secondItem="WUj-NN-Zug" secondAttribute="leading" constant="53" id="GfW-qG-tIN"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sWa-W8-fEg"/>
                 </viewController>
@@ -1620,10 +1622,10 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Sad-T6-JgU"/>
+        <segue reference="rcq-dP-3hN"/>
         <segue reference="64i-5t-Jgd"/>
-        <segue reference="b0U-2N-AQ6"/>
-        <segue reference="OKX-fz-qvx"/>
+        <segue reference="E6F-Hn-0XP"/>
+        <segue reference="fyo-mt-mXC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="4500" height="4500"/>
