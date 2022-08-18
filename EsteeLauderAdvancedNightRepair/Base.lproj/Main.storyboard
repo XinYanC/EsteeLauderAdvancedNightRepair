@@ -21,18 +21,18 @@
                                 <rect key="frame" x="-890" y="-207" width="1462" height="1319"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otl-Oy-DVC">
-                                <rect key="frame" x="198" y="707" width="195" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfR-cU-BP4">
+                                <rect key="frame" x="199" y="707" width="195" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Learn More">
+                                <buttonConfiguration key="configuration" style="filled" title="Estée Lauder For U">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="9ky-3B-87e" kind="show" id="F3b-2h-X01"/>
+                                    <segue destination="CYh-TM-nEi" kind="show" id="64i-5t-Jgd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,12 +222,9 @@ Synchronized Multi-Recovery Complex</string>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="ADD TO BAG">
                                             <backgroundConfiguration key="background">
-                                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="CYh-TM-nEi" kind="show" id="L5M-Ih-o2V"/>
-                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$110.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oh-bx-lc3">
                                         <rect key="frame" x="318" y="122" width="77" height="23"/>
@@ -263,13 +260,10 @@ Synchronized Multi-Recovery Complex</string>
                                 <rect key="frame" x="358" y="43" width="36" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <buttonConfiguration key="configuration" style="filled" title="">
                                     <backgroundConfiguration key="background" image="icons8-shopping-basket-star-96"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="CYh-TM-nEi" kind="show" id="jZc-26-SAb"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xXI-nN-0lZ"/>
@@ -315,6 +309,45 @@ Synchronized Multi-Recovery Complex</string>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5e-qO-sOK">
+                                        <rect key="frame" x="20" y="131" width="199" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Advance Night Repair">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="9ky-3B-87e" kind="show" id="5qY-TK-iSk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXf-Rf-Dm6">
+                                        <rect key="frame" x="20" y="203" width="199" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Estée Lauder For U">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="CYh-TM-nEi" kind="show" id="VVw-wf-pwc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhS-r4-P6g">
+                                        <rect key="frame" x="20" y="277" width="199" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Estée Lauder For U Results">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="zxV-cC-YSB" kind="show" id="yUW-7P-fGw"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
@@ -332,6 +365,98 @@ Synchronized Multi-Recovery Complex</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wD6-4L-htW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-723.1884057971015" y="778.79464285714278"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="aG7-6o-0mc">
+            <objects>
+                <viewController id="BfH-eX-IRF" customClass="ThirdViewController" customModule="EsteeLauderAdvancedNightRepair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9sb-ca-X0G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XlA-R9-JJD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="z18-zs-4XC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74L-aV-2xX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-723" y="1466"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="x0c-pH-YR8">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="zxV-cC-YSB" customClass="ThirdViewController" customModule="EsteeLauderAdvancedNightRepair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BsS-6p-LcD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oW4-JK-uMU">
+                                <rect key="frame" x="0.0" y="44" width="86" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="nav bar"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ecg-w3-1yc" kind="show" id="E6F-Hn-0XP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkf-hA-nkw">
+                                <rect key="frame" x="164" y="62" width="87" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" cornerRadius="0.0" image="Estée_Lauder_Companies_Logo.svg">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEt-GY-q6H">
+                                <rect key="frame" x="20" y="796" width="374" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ADVANCE NIGHT REPAIR">
+                                    <backgroundConfiguration key="background" cornerRadius="25">
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="9ky-3B-87e" kind="show" id="fyo-mt-mXC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LEARN MORE ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96D-h5-Uv0">
+                                <rect key="frame" x="124" y="760" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Why is the Advance Night Repair for yoU?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bGu-GQ-K8q">
+                                <rect key="frame" x="20" y="126" width="374" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dw0-VA-ACx">
+                                <rect key="frame" x="53" y="237" width="308" height="9"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WUj-NN-Zug"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WUj-NN-Zug" firstAttribute="trailing" secondItem="Dw0-VA-ACx" secondAttribute="trailing" constant="53" id="07K-t5-hDJ"/>
+                            <constraint firstItem="Dw0-VA-ACx" firstAttribute="leading" secondItem="WUj-NN-Zug" secondAttribute="leading" constant="53" id="GfW-qG-tIN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sWa-W8-fEg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbN-K4-6fv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="1465.8482142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ofy-af-AXn">
@@ -366,6 +491,45 @@ Synchronized Multi-Recovery Complex</string>
                                     <segue destination="9ky-3B-87e" kind="show" id="v3c-dY-0b6"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-cH-y5o">
+                                <rect key="frame" x="-14" y="178" width="443" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Find out why Advance Night Repair is for" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Esh-xp-SUF">
+                                <rect key="frame" x="54" y="569" width="307" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAt-C1-HKX">
+                                <rect key="frame" x="153" y="658" width="108" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8r-1i-pf3">
+                                <rect key="frame" x="113" y="727" width="188" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="START SURVEY">
+                                    <backgroundConfiguration key="background" cornerRadius="25">
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BfH-eX-IRF" kind="show" id="VQv-0P-PDq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ESTÉE LAUDER FOR U CAMPAIGN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-jP-IP2">
+                                <rect key="frame" x="24" y="147" width="367" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CGo-Of-Sj4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -374,21 +538,21 @@ Synchronized Multi-Recovery Complex</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqZ-5d-hfn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="779"/>
+            <point key="canvasLocation" x="18.840579710144929" y="778.79464285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="R5P-dH-3Y9">
             <objects>
-                <viewController id="47P-Z4-kQr" sceneMemberID="viewController">
+                <viewController id="47P-Z4-kQr" customClass="SecondViewController" customModule="EsteeLauderAdvancedNightRepair" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sah-lg-5DT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="734"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVQ-cY-tPz">
-                                <rect key="frame" x="0.0" y="269" width="414" height="573"/>
+                                <rect key="frame" x="0.0" y="269" width="378" height="465"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bf1-6L-6aJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="1500"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzx-CV-u0U">
                                                 <rect key="frame" x="127" y="8" width="161" height="10"/>
@@ -457,7 +621,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$110.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzl-LN-0y5">
-                                                <rect key="frame" x="329" y="121" width="77" height="23"/>
+                                                <rect key="frame" x="293" y="121" width="77" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -468,23 +632,19 @@ Synchronized Multi-Recovery Complex</string>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </stepper>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83T-YY-Qa4">
-                                                <rect key="frame" x="18" y="216" width="378" height="31"/>
+                                                <rect key="frame" x="18" y="216" width="342" height="31"/>
                                                 <color key="tintColor" systemColor="systemBrownColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="ADD TO BAG">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="strokeColor" systemColor="systemBrownColor"/>
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="CYh-TM-nEi" kind="show" id="tGc-Dn-0JS"/>
-                                                </connections>
                                             </button>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgA-a0-s8H">
-                                                <rect key="frame" x="0.0" y="1200" width="414" height="290"/>
+                                                <rect key="frame" x="0.0" y="1200" width="378" height="290"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KsW-nR-PrF">
                                                         <rect key="frame" x="0.0" y="0.0" width="898" height="290"/>
@@ -535,15 +695,97 @@ Synchronized Multi-Recovery Complex</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="fW0-iI-Sig">
+                                                <rect key="frame" x="-1" y="308" width="268" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-47-4Ie">
+                                                <rect key="frame" x="184" y="330" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="whitePlus">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info1:" destination="47P-Z4-kQr" eventType="touchUpInside" id="4hS-qM-PIi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebV-ar-rDv">
+                                                <rect key="frame" x="184" y="444" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="whitePlus">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info3:" destination="47P-Z4-kQr" eventType="touchUpInside" id="Eww-Qx-x73"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEv-Ih-R8t">
+                                                <rect key="frame" x="48" y="381" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="whitePlus">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info2:" destination="47P-Z4-kQr" eventType="touchUpInside" id="S2O-AO-Xnj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43c-Pm-oFm">
+                                                <rect key="frame" x="69" y="470" width="24" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="whitePlus">
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="info4:" destination="47P-Z4-kQr" eventType="touchUpInside" id="MLX-S4-9l1"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-AL-spl">
+                                                <rect key="frame" x="69" y="272" width="240" height="9"/>
+                                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IDEAL FOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUv-BG-PAR">
+                                                <rect key="frame" x="275" y="433" width="126" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PJr-YX-Zjj">
+                                                <rect key="frame" x="8" y="586" width="362" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="dgA-a0-s8H" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" id="0Oh-iZ-Ydv"/>
+                                            <constraint firstItem="0n3-AL-spl" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" constant="69" id="LH8-3O-8Uq"/>
                                             <constraint firstAttribute="bottom" secondItem="dgA-a0-s8H" secondAttribute="bottom" constant="10" id="VHx-b3-I2c"/>
                                             <constraint firstItem="dgA-a0-s8H" firstAttribute="top" secondItem="83T-YY-Qa4" secondAttribute="bottom" constant="953" id="W06-D3-fQH"/>
                                             <constraint firstAttribute="trailing" secondItem="dgA-a0-s8H" secondAttribute="trailing" id="bW3-td-lH7"/>
                                             <constraint firstAttribute="trailing" secondItem="83T-YY-Qa4" secondAttribute="trailing" constant="18" id="csV-7u-5uG"/>
                                             <constraint firstItem="83T-YY-Qa4" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" constant="18" id="jMT-3o-9dT"/>
+                                            <constraint firstAttribute="trailing" secondItem="0n3-AL-spl" secondAttribute="trailing" constant="69" id="kBI-xU-O6Y"/>
                                             <constraint firstAttribute="height" constant="1500" id="wIB-Ml-Coe"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -579,17 +821,21 @@ Synchronized Multi-Recovery Complex</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XJ3-RD-7xH"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="378" height="788"/>
+                    <connections>
+                        <outlet property="ideal" destination="PJr-YX-Zjj" id="6u6-3T-dKw"/>
+                        <outlet property="label1" destination="OUv-BG-PAR" id="LdC-En-gn5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zZq-Mw-8Ze" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718.84057971014499" y="778.79464285714278"/>
+            <point key="canvasLocation" x="692.75362318840587" y="742.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JGo-hE-48K">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="rz6-pf-Y0N" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="a3i-m3-7Yf">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="a3i-m3-7Yf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -604,10 +850,10 @@ Synchronized Multi-Recovery Complex</string>
                                     <segue destination="Ecg-w3-1yc" kind="show" id="R5F-28-Vu1"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-mF-ESd">
-                                <rect key="frame" x="0.0" y="105" width="414" height="791"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-mF-ESd">
+                                <rect key="frame" x="0.0" y="109" width="414" height="787"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgF-yy-xfh">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hgF-yy-xfh">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkH-qC-WzX">
@@ -631,7 +877,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="WRITE A REVIEW">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -691,7 +937,7 @@ Synchronized Multi-Recovery Complex</string>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                             </button>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8GB-b6-TMC">
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8GB-b6-TMC">
                                                 <rect key="frame" x="0.0" y="1180" width="414" height="239"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3g-pv-q81">
@@ -806,7 +1052,7 @@ Synchronized Multi-Recovery Complex</string>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="SUBMIT">
                                             <backgroundConfiguration key="background" cornerRadius="30">
-                                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
                                         <connections>
@@ -837,7 +1083,7 @@ Synchronized Multi-Recovery Complex</string>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="YbZ-Y1-8rJ" userLabel="rateBar">
                                         <rect key="frame" x="38" y="224" width="339" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="ratingBar:" destination="VSP-VO-9W7" eventType="valueChanged" id="69F-3c-ldL"/>
                                         </connections>
@@ -898,7 +1144,7 @@ Synchronized Multi-Recovery Complex</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="EXIT">
                                     <backgroundConfiguration key="background" cornerRadius="30">
-                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                                 <connections>
@@ -1250,13 +1496,14 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ixB-xb-IJD"/>
-        <segue reference="EP9-pl-XoO"/>
-        <segue reference="L5M-Ih-o2V"/>
-        <segue reference="R5F-28-Vu1"/>
-        <segue reference="uOL-yP-ECT"/>
+        <segue reference="Sad-T6-JgU"/>
+        <segue reference="64i-5t-Jgd"/>
+        <segue reference="E6F-Hn-0XP"/>
+        <segue reference="fyo-mt-mXC"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="4" width="4500" height="4500"/>
+        <image name="5" width="4500" height="4500"/>
         <image name="Advanced-Night-Repair-Square" width="1600" height="1600"/>
         <image name="DisplayPic" width="1734" height="1732"/>
         <image name="Estée_Lauder_Companies_Logo.svg" width="1200" height="719"/>
@@ -1280,6 +1527,7 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         <image name="icons8-shopping-basket-star-96" width="96" height="96"/>
         <image name="nav bar" width="560" height="560"/>
         <image name="navbarPic" width="1515" height="1437"/>
+        <image name="whitePlus" width="480" height="480"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -1292,8 +1540,14 @@ Tocopheryl Acetate: A form of Vitamin E that acts as a powerful anti-oxidant, he
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
