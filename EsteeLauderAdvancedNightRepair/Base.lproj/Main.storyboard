@@ -547,6 +547,15 @@ Synchronized Multi-Recovery Complex</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2U-PL-tti">
+                                <rect key="frame" x="113" y="278" width="188" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="9ky-3B-87e" kind="show" id="TTx-Sy-sJs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CGo-Of-Sj4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -706,11 +715,11 @@ Synchronized Multi-Recovery Complex</string>
                                                 <viewLayoutGuide key="frameLayoutGuide" id="hfF-On-AOP"/>
                                             </scrollView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="fW0-iI-Sig">
-                                                <rect key="frame" x="-1" y="308" width="268" height="270"/>
+                                                <rect key="frame" x="-1" y="330" width="268" height="270"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-47-4Ie">
-                                                <rect key="frame" x="184" y="330" width="24" height="23"/>
+                                                <rect key="frame" x="184" y="357" width="24" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
@@ -723,7 +732,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebV-ar-rDv">
-                                                <rect key="frame" x="184" y="444" width="24" height="23"/>
+                                                <rect key="frame" x="185" y="470" width="24" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
@@ -736,7 +745,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEv-Ih-R8t">
-                                                <rect key="frame" x="48" y="381" width="24" height="23"/>
+                                                <rect key="frame" x="49" y="404" width="24" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
@@ -749,7 +758,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43c-Pm-oFm">
-                                                <rect key="frame" x="69" y="470" width="24" height="23"/>
+                                                <rect key="frame" x="74" y="493" width="24" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
@@ -761,17 +770,8 @@ Synchronized Multi-Recovery Complex</string>
                                                     <action selector="info4:" destination="47P-Z4-kQr" eventType="touchUpInside" id="MLX-S4-9l1"/>
                                                 </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-AL-spl">
-                                                <rect key="frame" x="69" y="272" width="240" height="9"/>
-                                                <color key="backgroundColor" systemColor="systemGray3Color"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="10"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IDEAL FOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUv-BG-PAR">
-                                                <rect key="frame" x="275" y="433" width="126" height="30"/>
+                                                <rect key="frame" x="275" y="450" width="126" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
@@ -785,7 +785,7 @@ Synchronized Multi-Recovery Complex</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PJr-YX-Zjj">
-                                                <rect key="frame" x="8" y="586" width="362" height="74"/>
+                                                <rect key="frame" x="8" y="605" width="362" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="textColor" systemColor="labelColor"/>
@@ -877,17 +877,27 @@ Synchronized Multi-Recovery Complex</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRODUCT DETAILS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIU-wV-EUk">
+                                                <rect key="frame" x="63" y="298" width="252" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wHS-6q-qV0">
+                                                <rect key="frame" x="35" y="277" width="309" height="5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="dgA-a0-s8H" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" id="0Oh-iZ-Ydv"/>
-                                            <constraint firstItem="0n3-AL-spl" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" constant="69" id="LH8-3O-8Uq"/>
                                             <constraint firstAttribute="bottom" secondItem="dgA-a0-s8H" secondAttribute="bottom" constant="10" id="VHx-b3-I2c"/>
                                             <constraint firstItem="dgA-a0-s8H" firstAttribute="top" secondItem="83T-YY-Qa4" secondAttribute="bottom" constant="953" id="W06-D3-fQH"/>
                                             <constraint firstAttribute="trailing" secondItem="dgA-a0-s8H" secondAttribute="trailing" id="bW3-td-lH7"/>
                                             <constraint firstAttribute="trailing" secondItem="83T-YY-Qa4" secondAttribute="trailing" constant="18" id="csV-7u-5uG"/>
                                             <constraint firstItem="83T-YY-Qa4" firstAttribute="leading" secondItem="bf1-6L-6aJ" secondAttribute="leading" constant="18" id="jMT-3o-9dT"/>
-                                            <constraint firstAttribute="trailing" secondItem="0n3-AL-spl" secondAttribute="trailing" constant="69" id="kBI-xU-O6Y"/>
                                             <constraint firstAttribute="height" constant="1500" id="wIB-Ml-Coe"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
